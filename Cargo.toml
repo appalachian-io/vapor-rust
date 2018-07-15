@@ -1,0 +1,8 @@
+[package]
+name = "vapor"
+version = "0.1.0"
+authors = ["Jason Longshore <hello@jasonlongshore.com>"]
+
+[dependencies]
+hostname = "0.1.5"
+rand = "0.5.4"
