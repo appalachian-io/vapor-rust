@@ -2,6 +2,12 @@
 name = "vapor"
 version = "0.1.0"
 authors = ["Jason Longshore <hello@jasonlongshore.com>"]
+description = "A client library for vapord"
+repository = "https://github.com/appalachian-io/vapor-rust"
+homepage = "https://github.com/longshorej/rust-tags"
+readme = "README.md"
+keywords = ["metrics", "telemetry", "udp", "client"]
+license = "Apache-2.0"
 
 [dependencies]
 hostname = "0.1.5"
