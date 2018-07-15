@@ -1,6 +1,17 @@
-#vapor-rust
+# vapor-rust
+
+[![Crates.io](https://crates.io/crates/vapor)](https://crates.io/crates/vapor)
+[![Crates.io](https://crates.io/crates/vapor)](https://crates.io/crates/vapor)
 
 A client library for Rust applications to post metrics to [vapord](https://github.com/appalachian-io/vapor).
+
+## Setup
+
+In `Cargo.toml`:
+
+```toml
+vapor = "<latest-version>"
+```
 
 ## Usage
 
