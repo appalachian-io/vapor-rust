@@ -1,7 +1,7 @@
 # vapor-rust
 
 [![Crates.io](https://img.shields.io/crates/v/vapor.svg?style=flat-square)](https://crates.io/crates/vapor)
-[![Crates.io](https://img.shields.io/crates/v/vapor.svg?style=flat-square)](https://crates.io/crates/vapor)
+[![Crates.io](https://img.shields.io/crates/d/vapor.svg?style=flat-square)](https://crates.io/crates/vapor)
 
 A client library for Rust applications to post metrics to [vapord](https://github.com/appalachian-io/vapor).
 
