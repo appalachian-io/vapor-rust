@@ -1,6 +1,6 @@
 [package]
 name = "vapor"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Jason Longshore <hello@jasonlongshore.com>"]
 description = "A client library for vapord"
 repository = "https://github.com/appalachian-io/vapor-rust"
