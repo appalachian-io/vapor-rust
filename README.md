@@ -36,3 +36,9 @@ vapor.sample_gauge("audiod-recv.%h.audio-clock-diff", clock_diff, 0.001);
   });
 }
 ```
+
+## Releasing
+
+1) Update version in `Cargo.toml` and commit change
+2) Create a tag and push it, e.g. : `git tag v0.1.0 && git push upstream v0.1.0`
+3) Checkout the tag and publish: `git checkout v0.1.0 && cargo publish`
