@@ -49,8 +49,8 @@ impl Vapor {
         }
     }
 
-    pub fn event<S: AsRef<str>>(&self, name: S) {
-        let data = format!("e.{}.0", self.calc_name(name));
+    pub fn event<S: AsRef<str>>(&self, name: S, count: i64, period: u16) {
+        let data = format!("e/{}/{}/{}", self.calc_name(name), count, period);
         let _ = self.sender.send(data.into_bytes());
     }
 
@@ -59,9 +59,9 @@ impl Vapor {
         let _ = self.sender.send(data.into_bytes());
     }
 
-    pub fn sample_event<S: AsRef<str>>(&self, name: S, sample_rate: f64) {
+    pub fn sample_event<S: AsRef<str>>(&self, name: S, count: i64, period: u16, sample_rate: f64) {
         if Vapor::should_send(sample_rate) {
-            self.event(name);
+            self.event(name, count, period);
         }
     }
 
